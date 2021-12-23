@@ -3,9 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: "Poppins", sans-serif;
@@ -82,7 +79,11 @@ body {
     font-size: 1.4rem;
     -webkit-text-decoration: underline #8032b4 3px;
     text-decoration: underline #8032b4 3px;
-    animation: spacing 1s ease-in forwards;
+    animation: spacing 2s ease-in forwards;
+    
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 .login-form input[type='email'] {
@@ -112,6 +113,10 @@ body {
     padding: 6px 20px;
     border-radius: 100px;
     background-color: #3255b4;
+    
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 .login-form input[type='button']:hover {
