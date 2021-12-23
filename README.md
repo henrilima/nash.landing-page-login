@@ -13,4 +13,4 @@
 
 ### Mobile Version:
 
-<img src="https://i.imgur.com/ouCCDLu.png" alt="drawing" width="200"/>
+<img src="https://i.imgur.com/ouCCDLu.png" alt="drawing" width="400"/>
