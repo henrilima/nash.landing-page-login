@@ -82,6 +82,7 @@ body {
     font-size: 1.4rem;
     -webkit-text-decoration: underline #8032b4 3px;
     text-decoration: underline #8032b4 3px;
+    animation: spacing 1s ease-in forwards;
 }
 
 .login-form input[type='email'] {
@@ -163,5 +164,17 @@ body {
     .login-form input[type='password'] {
         padding: 0 5px;
         text-align: center;
+    }
+}
+
+@keyframes spacing {
+    0% {
+        letter-spacing: 0;
+    }
+    50% {
+        letter-spacing: 4px;
+    }
+    100% {
+        letter-spacing: 0;
     }
 }
